@@ -12,8 +12,7 @@ def comedero_mascota():
         estado_hora2 = input("Ingrese el estado de la hora programada: ")#El usuario ingresa el estado del comedero: lleno o vacio
         estado_hora3 = input("Ingrese el estado de la hora programada: ")#El usuario ingresa el estado del comedero: lleno o vacio
         print("Meta Deseada:" + str(estado_meta))#Se muestran los resultados que se esperan
-        #Muestra el horario en el que se encuentra el comedero para mascotas
-        print("El comedero para mascotas se encuentra en el horario 7am")
+        print("El comedero para mascotas se encuentra en el horario 7am") #Muestra el horario en el que se encuentra el comedero para mascotas
         if(ingrese_estado == '1'):#Si el comedero para mascotas a las 7am se encuentra vacio
             print("El comedero para mascotas a las 7am esta vacio")#Muestra mensaje de que el comedero para mascotas esta vacio a las 7am
             estado_meta['7am'] ='0' #El comedero de mascotas debe llenarse
